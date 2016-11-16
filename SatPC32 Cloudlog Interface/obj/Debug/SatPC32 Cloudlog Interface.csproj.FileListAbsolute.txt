@@ -1,0 +1,15 @@
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.exe.config
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\obj\Debug\SatPC32_Cloudlog_Interface.Form1.resources
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\obj\Debug\SatPC32_Cloudlog_Interface.Properties.Resources.resources
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.csproj.GenerateResource.Cache
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.pdb
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\bin\Debug\NDde.dll
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\SatPC32 Cloudlog Interface\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.pdb
+C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.exe.config
+C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32_Cloudlog_Interface.Form1.resources
+C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32_Cloudlog_Interface.Properties.Resources.resources
+C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.csproj.GenerateResource.Cache
+C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.exe
+C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.pdb

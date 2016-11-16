@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SatPC32 Cloudlog Interface.exe" version="1.0.0.0" publicKeyToken="6d1bb3804447091b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SatPC32 Cloudlog Interface.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NDde.dll" size="110592">
+      <assemblyIdentity name="NDde" version="2.1.563.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mO9Jpu1CxCDY0sk9oLyx3syRzQ7YOnrTWV81O+A+FJE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SatPC32 Cloudlog Interface.exe" size="12768">
+      <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iwdSJeL1hGMCY/UadqH5y5w7dmTMX11WexdFcJvqMbc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="NDde.xml" size="149553" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nb3ySPzQ6BEfchhmJalTrDEUr50sBAIPbjSjNb34dnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SatPC32 Cloudlog Interface.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SC687VB\peter" issuerKeyHash="4ee1126eb20e9b4f4aadc3fe58ab09e6c590d6bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WhRLFMTE2ft9XmGcaF5dPuqJRAPOBmUmqXUPNqsi+SY=</DigestValue></Reference></SignedInfo><SignatureValue>SXRmS/Lcal6u7WdK/g7xG8N0hMUINACLFQtsPFgmNCIhJmyxpWICBq/I0N1E05ImiDYeh/oWQJG/0+lvBi5jSaO5SpUYsef+iSSkkPJZIkTeigWrZ6IDY1q1N7fuqhD8yx4vjkxz6Df1S/LN/Gvqw+zZUShy/TkcNU4mwh27GhA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>jzF5ygEqouLxy4XQjRpggKWw9ylMJJ9MVQOVw7VRdCYo+QB/FW3nfxcujFoeFgrA2O2oO6aYp7RlChMORi/1ARuk+Z87GdEn5Bgl8oG8td6GfbAIgDM2Vi9vdF7rfNAqhyWqdnms85ooerDoxftlYidRCIm0jJXQYmOVZCBKiJk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="26f922ab360f75a9266506ce034489ea3e5d5e689c615e7dfbd9c4c4144b145a" Description="" Url=""><as:assemblyIdentity name="SatPC32 Cloudlog Interface.exe" version="1.0.0.0" publicKeyToken="6d1bb3804447091b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SC687VB\peter</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/pMuqLrnRPnriM3tq+l2H6IoAise21Jh8UVwUyR3GjE=</DigestValue></Reference></SignedInfo><SignatureValue>E7t5SNJZ6W7gJXwUiTGQQWageR/zjiP0Ttm0gd7Gb0vxv9mx6ZcbeLSqEREUCvRYotwdggdZP0xqX9LAbZhLOdTkWFSameGGMr/b4sVpMhCvAH2pOdbCzQ3Mjq/XBixnhNZPS1lkKa1UHyIIOANfNHgprq3cScNh8llwst9wt+w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jzF5ygEqouLxy4XQjRpggKWw9ylMJJ9MVQOVw7VRdCYo+QB/FW3nfxcujFoeFgrA2O2oO6aYp7RlChMORi/1ARuk+Z87GdEn5Bgl8oG8td6GfbAIgDM2Vi9vdF7rfNAqhyWqdnms85ooerDoxftlYidRCIm0jJXQYmOVZCBKiJk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQe1ddFIliHJVMYS6v1QAzXjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMAQwA2ADgANwBWAEIAXABwAGUAdABlAHIwHhcNMTYxMTE2MjIzNDI5WhcNMTcxMTE3MDQzNDI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMAQwA2ADgANwBWAEIAXABwAGUAdABlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAI8xecoBKqLi8cuF0I0aYIClsPcpTCSfTFUDlcO1UXQmKPkAfxVt538XLoxaHhYKwNjtqDummKe0ZQoTDkYv9QEbpPmfOxnRJ+QYJfKBvLXehn2wCIAzNlYvb3Re63zQKoclqnZ5rPOaKHqw6MX7ZWInUQiJtIyV0GJjlWQgSoiZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJA3o+Xfys8672c70CBPS03czglu9vBr/TcmRPQ0iVbttZ9+0QqT+EbsexiJX/KihrK9ENaRRvBeDU2nEcrI+HGt4rSn+8+G6dh7mN3Qo4ClSQ1lSEcDr6Pk7/HTLhZSqkqH735fuWNduf7wC6tCYAPyQi5IuPbwtRbnIZ2e2t0M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
