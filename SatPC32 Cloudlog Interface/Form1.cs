@@ -24,6 +24,7 @@ namespace SatPC32_Cloudlog_Interface
             InitializeComponent();
 
             textBox1.Text = ConfigurationManager.AppSettings["CloudlogURL"];
+            textBox2.Text = ConfigurationManager.AppSettings["CloudlogAPIKey"];
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -136,7 +137,7 @@ namespace SatPC32_Cloudlog_Interface
                         {
                             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12 | SecurityProtocolType.Ssl3;
                             cli.Headers[HttpRequestHeader.ContentType] = "application/json";
-                            string response = cli.UploadString(textBox1.Text + "/index.php/api/radio", "{\"radio\":\"SatPC32\",\"frequency\":0,\"mode\":\"non\",\"sat_name\":\"" + satname + "\",\"downlink_freq\":\"" + downlink_freq + "\",\"uplink_freq\":\"" + uplink_freq + "\",\"downlink_mode\":\"" + downlink_mode + "\",\"uplink_mode\":\"" + uplink_mode + "\",\"timestamp\":\"2012 / 04 / 07 16:47\"}");
+                            string response = cli.UploadString(textBox1.Text + "/index.php/api/radio", "{\"radio\":\"SatPC32\",\"frequency\":0,\"mode\":\"non\",\"sat_name\":\"" + satname + "\",\"downlink_freq\":\"" + downlink_freq + "\",\"uplink_freq\":\"" + uplink_freq + "\",\"downlink_mode\":\"" + downlink_mode + "\",\"uplink_mode\":\"" + uplink_mode + "\",\"key\":\"" + textBox2.Text +"\"}");
                             Console.WriteLine(response);
                             label_cloudlog_status.Invoke((MethodInvoker)delegate {
                                 label_cloudlog_status.Text = "Connected";
@@ -199,7 +200,9 @@ namespace SatPC32_Cloudlog_Interface
         {
             Configuration config = ConfigurationManager.OpenExeConfiguration(Application.ExecutablePath);
             config.AppSettings.Settings.Remove("CloudlogURL");
+            config.AppSettings.Settings.Remove("CloudlogAPIKey");
             config.AppSettings.Settings.Add("CloudlogURL", textBox1.Text);
+            config.AppSettings.Settings.Add("CloudlogAPIKey", textBox2.Text);
             config.Save(ConfigurationSaveMode.Modified);
 
             if (AppStatus != "running")

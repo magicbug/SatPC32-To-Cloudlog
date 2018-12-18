@@ -23,3 +23,20 @@ C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog I
 C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.application
 C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.exe.manifest
 C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.application
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.exe.config
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.exe.manifest
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.application
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.exe
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.pdb
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\NDde.dll
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csprojAssemblyReference.cache
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32_Cloudlog_Interface.Form1.resources
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32_Cloudlog_Interface.Properties.Resources.resources
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.GenerateResource.cache
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.CoreCompileInputs.cache
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.TrustInfo.xml
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.exe.manifest
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.application
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.CopyComplete
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.exe
+C:\Users\peter\Documents\development\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.pdb

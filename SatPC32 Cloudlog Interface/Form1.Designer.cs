@@ -32,23 +32,25 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel_status = new System.Windows.Forms.Panel();
-            this.label_satname = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label_satmode_up = new System.Windows.Forms.Label();
-            this.label_satmode_down = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label_uplink_freq = new System.Windows.Forms.Label();
-            this.label_downlink_freq = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label_cloudlog_status = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label_downlink_freq = new System.Windows.Forms.Label();
+            this.label_uplink_freq = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label_satmode_down = new System.Windows.Forms.Label();
+            this.label_satmode_up = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label_satname = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel_status.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 56);
+            this.button1.Location = new System.Drawing.Point(15, 90);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(309, 31);
             this.button1.TabIndex = 0;
@@ -59,7 +61,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 13);
+            this.label1.Location = new System.Drawing.Point(15, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 13);
             this.label1.TabIndex = 1;
@@ -68,9 +70,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 30);
+            this.textBox1.Location = new System.Drawing.Point(18, 25);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(306, 20);
+            this.textBox1.Size = new System.Drawing.Size(303, 20);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -86,31 +88,77 @@
             this.panel_status.Controls.Add(this.label3);
             this.panel_status.Controls.Add(this.label2);
             this.panel_status.Controls.Add(this.label_satname);
-            this.panel_status.Location = new System.Drawing.Point(15, 95);
+            this.panel_status.Location = new System.Drawing.Point(15, 127);
             this.panel_status.Name = "panel_status";
             this.panel_status.Size = new System.Drawing.Size(306, 108);
             this.panel_status.TabIndex = 4;
             this.panel_status.Visible = false;
             this.panel_status.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label_satname
+            // label_cloudlog_status
             // 
-            this.label_satname.AutoSize = true;
-            this.label_satname.Location = new System.Drawing.Point(98, 12);
-            this.label_satname.Name = "label_satname";
-            this.label_satname.Size = new System.Drawing.Size(54, 13);
-            this.label_satname.TabIndex = 0;
-            this.label_satname.Text = "Sat Name";
-            this.label_satname.Click += new System.EventHandler(this.label2_Click);
+            this.label_cloudlog_status.AutoSize = true;
+            this.label_cloudlog_status.Location = new System.Drawing.Point(98, 84);
+            this.label_cloudlog_status.Name = "label_cloudlog_status";
+            this.label_cloudlog_status.Size = new System.Drawing.Size(60, 13);
+            this.label_cloudlog_status.TabIndex = 9;
+            this.label_cloudlog_status.Text = "Link Status";
+            this.label_cloudlog_status.Click += new System.EventHandler(this.label6_Click);
             // 
-            // label2
+            // label5
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Satellite Name:";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 84);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(74, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Cloudlog Link:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label_downlink_freq
+            // 
+            this.label_downlink_freq.AutoSize = true;
+            this.label_downlink_freq.Location = new System.Drawing.Point(175, 39);
+            this.label_downlink_freq.Name = "label_downlink_freq";
+            this.label_downlink_freq.Size = new System.Drawing.Size(75, 13);
+            this.label_downlink_freq.TabIndex = 7;
+            this.label_downlink_freq.Text = "Downlink Freq";
+            // 
+            // label_uplink_freq
+            // 
+            this.label_uplink_freq.AutoSize = true;
+            this.label_uplink_freq.Location = new System.Drawing.Point(98, 39);
+            this.label_uplink_freq.Name = "label_uplink_freq";
+            this.label_uplink_freq.Size = new System.Drawing.Size(45, 13);
+            this.label_uplink_freq.TabIndex = 6;
+            this.label_uplink_freq.Text = "Up Freq";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(14, 39);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Satellite Freq:";
+            // 
+            // label_satmode_down
+            // 
+            this.label_satmode_down.AutoSize = true;
+            this.label_satmode_down.Location = new System.Drawing.Point(175, 53);
+            this.label_satmode_down.Name = "label_satmode_down";
+            this.label_satmode_down.Size = new System.Drawing.Size(84, 13);
+            this.label_satmode_down.TabIndex = 4;
+            this.label_satmode_down.Text = "Sat Mode Down";
+            // 
+            // label_satmode_up
+            // 
+            this.label_satmode_up.AutoSize = true;
+            this.label_satmode_up.Location = new System.Drawing.Point(98, 53);
+            this.label_satmode_up.Name = "label_satmode_up";
+            this.label_satmode_up.Size = new System.Drawing.Size(70, 13);
+            this.label_satmode_up.TabIndex = 3;
+            this.label_satmode_up.Text = "Sat Mode Up";
             // 
             // label3
             // 
@@ -123,74 +171,46 @@
             this.label3.Text = "Satellite Mode:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label_satmode_up
+            // label2
             // 
-            this.label_satmode_up.AutoSize = true;
-            this.label_satmode_up.Location = new System.Drawing.Point(98, 53);
-            this.label_satmode_up.Name = "label_satmode_up";
-            this.label_satmode_up.Size = new System.Drawing.Size(70, 13);
-            this.label_satmode_up.TabIndex = 3;
-            this.label_satmode_up.Text = "Sat Mode Up";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(78, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Satellite Name:";
             // 
-            // label_satmode_down
+            // label_satname
             // 
-            this.label_satmode_down.AutoSize = true;
-            this.label_satmode_down.Location = new System.Drawing.Point(175, 53);
-            this.label_satmode_down.Name = "label_satmode_down";
-            this.label_satmode_down.Size = new System.Drawing.Size(84, 13);
-            this.label_satmode_down.TabIndex = 4;
-            this.label_satmode_down.Text = "Sat Mode Down";
+            this.label_satname.AutoSize = true;
+            this.label_satname.Location = new System.Drawing.Point(98, 12);
+            this.label_satname.Name = "label_satname";
+            this.label_satname.Size = new System.Drawing.Size(54, 13);
+            this.label_satname.TabIndex = 0;
+            this.label_satname.Text = "Sat Name";
+            this.label_satname.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label4
+            // label6
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 39);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Satellite Freq:";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(15, 48);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(92, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Cloudlog API Key:";
             // 
-            // label_uplink_freq
+            // textBox2
             // 
-            this.label_uplink_freq.AutoSize = true;
-            this.label_uplink_freq.Location = new System.Drawing.Point(98, 39);
-            this.label_uplink_freq.Name = "label_uplink_freq";
-            this.label_uplink_freq.Size = new System.Drawing.Size(45, 13);
-            this.label_uplink_freq.TabIndex = 6;
-            this.label_uplink_freq.Text = "Up Freq";
-            // 
-            // label_downlink_freq
-            // 
-            this.label_downlink_freq.AutoSize = true;
-            this.label_downlink_freq.Location = new System.Drawing.Point(175, 39);
-            this.label_downlink_freq.Name = "label_downlink_freq";
-            this.label_downlink_freq.Size = new System.Drawing.Size(75, 13);
-            this.label_downlink_freq.TabIndex = 7;
-            this.label_downlink_freq.Text = "Downlink Freq";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 84);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Cloudlog Link:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label_cloudlog_status
-            // 
-            this.label_cloudlog_status.AutoSize = true;
-            this.label_cloudlog_status.Location = new System.Drawing.Point(98, 84);
-            this.label_cloudlog_status.Name = "label_cloudlog_status";
-            this.label_cloudlog_status.Size = new System.Drawing.Size(60, 13);
-            this.label_cloudlog_status.TabIndex = 9;
-            this.label_cloudlog_status.Text = "Link Status";
-            this.label_cloudlog_status.Click += new System.EventHandler(this.label6_Click);
+            this.textBox2.Location = new System.Drawing.Point(18, 64);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(303, 20);
+            this.textBox2.TabIndex = 6;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(333, 215);
+            this.ClientSize = new System.Drawing.Size(333, 242);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.panel_status);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -221,6 +241,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label_cloudlog_status;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
