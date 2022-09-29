@@ -1,4 +1,4 @@
-﻿namespace SatPC32_Cloudlog_Interface
+namespace SatPC32_Cloudlog_Interface
 {
     partial class Form1
     {
@@ -44,15 +44,17 @@
             this.label_satname = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel_status.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(15, 90);
+            this.button1.Location = new System.Drawing.Point(18, 138);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(309, 31);
+            this.button1.Size = new System.Drawing.Size(303, 31);
             this.button1.TabIndex = 0;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
@@ -88,9 +90,9 @@
             this.panel_status.Controls.Add(this.label3);
             this.panel_status.Controls.Add(this.label2);
             this.panel_status.Controls.Add(this.label_satname);
-            this.panel_status.Location = new System.Drawing.Point(15, 127);
+            this.panel_status.Location = new System.Drawing.Point(18, 175);
             this.panel_status.Name = "panel_status";
-            this.panel_status.Size = new System.Drawing.Size(306, 108);
+            this.panel_status.Size = new System.Drawing.Size(303, 108);
             this.panel_status.TabIndex = 4;
             this.panel_status.Visible = false;
             this.panel_status.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
@@ -206,9 +208,28 @@
             this.textBox2.Size = new System.Drawing.Size(303, 20);
             this.textBox2.TabIndex = 6;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 87);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Cloudlog Identifier:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(18, 103);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(303, 20);
+            this.textBox3.TabIndex = 8;
+            // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(333, 242);
+            this.ClientSize = new System.Drawing.Size(333, 295);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.panel_status);
@@ -243,6 +264,8 @@
         private System.Windows.Forms.Label label_cloudlog_status;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
