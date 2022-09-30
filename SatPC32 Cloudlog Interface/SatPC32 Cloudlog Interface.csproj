@@ -29,7 +29,7 @@
     <ProductName>CloudlogSatPC32</ProductName>
     <PublisherName>magicbug</PublisherName>
     <SuiteName>Cloudlog</SuiteName>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
