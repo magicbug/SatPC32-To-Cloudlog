@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SatPC32 Cloudlog Interface.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="en-GB" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SatPC32 Cloudlog Interface.exe" version="3.0.0.0" publicKeyToken="0000000000000000" language="en-GB" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="SatPC32 Cloudlog Interface" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="SatPC32 Cloudlog Interface.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -55,32 +55,32 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SatPC32 Cloudlog Interface.exe" size="18432">
-      <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="SatPC32 Cloudlog Interface" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>C32axn7ehDscbp15FbN8RBur2Nfr3T6KDKP7SHYR6+0=</dsig:DigestValue>
+        <dsig:DigestValue>I62HEBFra+E/X27RL/Zq5DMn5ANfmc9sDwbIH1eBSk0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="NDde.xml" size="146321" writeableType="applicationData">
+  <file name="NDde.xml" size="149553" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Dj8Zu6+nQ/txpLPykZ62XHujwHGja6cdtu2i2xgtPVI=</dsig:DigestValue>
+      <dsig:DigestValue>nb3ySPzQ6BEfchhmJalTrDEUr50sBAIPbjSjNb34dnQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SatPC32 Cloudlog Interface.exe.config" size="964">
+  <file name="SatPC32 Cloudlog Interface.exe.config" size="962">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Eo8cb7ARUlC3j8mpLhlBc7f1Dep2ZFTZZwe4l0KASFw=</dsig:DigestValue>
+      <dsig:DigestValue>EZU8IMjRmL+CP92tOI1SScKx7pEmgi9NBgGO/3q6jac=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

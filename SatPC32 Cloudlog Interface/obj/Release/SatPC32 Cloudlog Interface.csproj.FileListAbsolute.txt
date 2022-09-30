@@ -57,3 +57,21 @@ C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Inte
 C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.CopyComplete
 C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.exe
 C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.pdb
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.exe.config
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.exe.manifest
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.application
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.exe
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\SatPC32 Cloudlog Interface.pdb
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Release\NDde.dll
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.AssemblyReference.cache
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.SuggestedBindingRedirects.cache
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32_Cloudlog_Interface.Form1.resources
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32_Cloudlog_Interface.Properties.Resources.resources
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.GenerateResource.cache
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.CoreCompileInputs.cache
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.TrustInfo.xml
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.exe.manifest
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.application
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.csproj.CopyComplete
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.exe
+C:\Users\peter\GitHub\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Release\SatPC32 Cloudlog Interface.pdb
