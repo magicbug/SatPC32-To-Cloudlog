@@ -1,4 +1,4 @@
-namespace SatPC32_Cloudlog_Interface
+﻿namespace SatPC32_Cloudlog_Interface
 {
     partial class Form1
     {

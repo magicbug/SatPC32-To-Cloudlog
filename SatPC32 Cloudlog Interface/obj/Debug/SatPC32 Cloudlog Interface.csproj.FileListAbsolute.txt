@@ -13,3 +13,19 @@ C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog I
 C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.csproj.GenerateResource.Cache
 C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.exe
 C:\Users\peter\Documents\development\Code\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.pdb
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.exe.config
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.exe.manifest
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.application
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.exe
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Debug\SatPC32 Cloudlog Interface.pdb
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\bin\Debug\NDde.dll
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32_Cloudlog_Interface.Form1.resources
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32_Cloudlog_Interface.Properties.Resources.resources
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.csproj.GenerateResource.cache
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.csproj.CoreCompileInputs.cache
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.TrustInfo.xml
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.exe.manifest
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.application
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.csproj.CopyComplete
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.exe
+C:\Users\Florian\Nextcloud\Amateurfunk\SatPC32-To-Cloudlog\SatPC32 Cloudlog Interface\obj\Debug\SatPC32 Cloudlog Interface.pdb
