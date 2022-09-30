@@ -11,6 +11,7 @@ using System.Net;
 using System.IO;
 using System.Threading;
 using System.Configuration;
+using System.Reflection;
 
 namespace SatPC32_Cloudlog_Interface
 {
@@ -30,7 +31,7 @@ namespace SatPC32_Cloudlog_Interface
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            label_version.Text = "SatPC32-To-Cloudlog v"+ Assembly.GetExecutingAssembly().GetName().Version; ;
         }
 
         public void ThreadProc(Object stateInfo)
@@ -260,6 +261,11 @@ namespace SatPC32_Cloudlog_Interface
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }

@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="SatPC32 Cloudlog Interface.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="en-GB" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="SatPC32 Cloudlog Interface.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SatPC32 Cloudlog Interface.exe" size="17408">
-      <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SatPC32 Cloudlog Interface.exe" size="18432">
+      <assemblyIdentity name="SatPC32 Cloudlog Interface" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1MirQzsizpaBeqJ0X531IxkZEurIp/9+5Uyrzpnz4g0=</dsig:DigestValue>
+        <dsig:DigestValue>C32axn7ehDscbp15FbN8RBur2Nfr3T6KDKP7SHYR6+0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
