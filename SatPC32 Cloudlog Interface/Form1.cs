@@ -11,6 +11,7 @@ using System.Net;
 using System.IO;
 using System.Threading;
 using System.Configuration;
+using System.Reflection;
 
 namespace SatPC32_Cloudlog_Interface
 {
@@ -25,11 +26,12 @@ namespace SatPC32_Cloudlog_Interface
 
             textBox1.Text = ConfigurationManager.AppSettings["CloudlogURL"];
             textBox2.Text = ConfigurationManager.AppSettings["CloudlogAPIKey"];
+            textBox3.Text = ConfigurationManager.AppSettings["CloudlogIdentifier"];
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            label_version.Text = "SatPC32-To-Cloudlog v"+ Assembly.GetExecutingAssembly().GetName().Version; ;
         }
 
         public void ThreadProc(Object stateInfo)
@@ -39,6 +41,9 @@ namespace SatPC32_Cloudlog_Interface
             Console.WriteLine("Hello from the thread pool.");
 
             NDde.Client.DdeClient client = new NDde.Client.DdeClient("SatPC32", "SatPcDdeConv");
+
+            string identifier = "n/a";
+            identifier = textBox3.Text;
 
             try
             {
@@ -65,10 +70,10 @@ namespace SatPC32_Cloudlog_Interface
 
                     //Console.WriteLine(word);
                     string satname = "";
-                    string downlink_freq = "";
-                    string uplink_freq = "";
-                    string downlink_mode = "";
-                    string uplink_mode = "";
+                    string frequency_rx = "";
+                    string frequency = "";
+                    string mode_rx = "";
+                    string mode = "";
 
                     foreach (string word in words)
                     {
@@ -87,19 +92,19 @@ namespace SatPC32_Cloudlog_Interface
                         }
                         else if (word.StartsWith("UP"))
                         {
-                            uplink_freq = word.Remove(0, 2);
+                            frequency = word.Remove(0, 2);
                         }
                         else if (word.StartsWith("UM"))
                         {
-                            uplink_mode = word.Remove(0, 2);
+                            mode = word.Remove(0, 2);
                         }
                         else if (word.StartsWith("DN"))
                         {
-                            downlink_freq = word.Remove(0, 2);
+                            frequency_rx = word.Remove(0, 2);
                         }
                         else if (word.StartsWith("DM"))
                         {
-                            downlink_mode = word.Remove(0, 2);
+                            mode_rx = word.Remove(0, 2);
                         }
 
                         label_satname.Invoke((MethodInvoker)delegate {
@@ -107,19 +112,19 @@ namespace SatPC32_Cloudlog_Interface
                         });
 
                         label_uplink_freq.Invoke((MethodInvoker)delegate {
-                            label_uplink_freq.Text = uplink_freq;
+                            label_uplink_freq.Text = frequency;
                         });
 
                         label_downlink_freq.Invoke((MethodInvoker)delegate {
-                            label_downlink_freq.Text = downlink_freq;
+                            label_downlink_freq.Text = frequency_rx;
                         });
 
                         label_satmode_up.Invoke((MethodInvoker)delegate {
-                            label_satmode_up.Text = uplink_mode;
+                            label_satmode_up.Text = mode;
                         });
 
                         label_satmode_down.Invoke((MethodInvoker)delegate {
-                            label_satmode_down.Text = downlink_mode;
+                            label_satmode_down.Text = mode_rx;
                         });
 
                         label_cloudlog_status.Invoke((MethodInvoker)delegate {
@@ -137,7 +142,7 @@ namespace SatPC32_Cloudlog_Interface
                         {
                             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12 | SecurityProtocolType.Ssl3;
                             cli.Headers[HttpRequestHeader.ContentType] = "application/json";
-                            string response = cli.UploadString(textBox1.Text + "/index.php/api/radio", "{\"radio\":\"SatPC32\",\"frequency\":0,\"mode\":\"non\",\"sat_name\":\"" + satname + "\",\"downlink_freq\":\"" + downlink_freq + "\",\"uplink_freq\":\"" + uplink_freq + "\",\"downlink_mode\":\"" + downlink_mode + "\",\"uplink_mode\":\"" + uplink_mode + "\",\"key\":\"" + textBox2.Text +"\"}");
+                            string response = cli.UploadString(textBox1.Text + "/index.php/api/radio", "{\"radio\":\"SatPC32 (" + identifier + ")\",\"frequency\":" + frequency + ",\"mode\":\"" + mode + "\",\"sat_name\":\"" + satname + "\",\"downlink_freq\":\"" + frequency_rx + "\",\"downlink_mode\":\"" + mode_rx + "\",\"key\":\"" + textBox2.Text +"\"}");
                             Console.WriteLine(response);
                             label_cloudlog_status.Invoke((MethodInvoker)delegate {
                                 label_cloudlog_status.Text = "Connected";
@@ -201,8 +206,10 @@ namespace SatPC32_Cloudlog_Interface
             Configuration config = ConfigurationManager.OpenExeConfiguration(Application.ExecutablePath);
             config.AppSettings.Settings.Remove("CloudlogURL");
             config.AppSettings.Settings.Remove("CloudlogAPIKey");
+            config.AppSettings.Settings.Remove("CloudlogIdentifier");
             config.AppSettings.Settings.Add("CloudlogURL", textBox1.Text);
             config.AppSettings.Settings.Add("CloudlogAPIKey", textBox2.Text);
+            config.AppSettings.Settings.Add("CloudlogIdentifier", textBox3.Text);
             config.Save(ConfigurationSaveMode.Modified);
 
             if (AppStatus != "running")
@@ -249,6 +256,16 @@ namespace SatPC32_Cloudlog_Interface
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }
